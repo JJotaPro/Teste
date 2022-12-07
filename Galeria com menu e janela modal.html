@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CSS only -->
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>
+        Galeria
+
+    </title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Menu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Cadastro
+                </a>
+                <ul class="dropdown-menu">
+                    <form class= "form3">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Nome completo</label>
+                            <input type="name" class="form-control" id="exampleInputEmail1"  required>
+    
+                            <label for="exampleInputEmail1" class="form-label">CPF</label>
+                            <input type="name" class="form-control" id="exampleInputEmail1"  required>
+    
+                          <label for="exampleInputEmail1" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                          <div id="emailHelp" class="form-text">
+                        </div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Senha</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                      </form>
+                    
+                  
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Login
+                </a>
+                <ul class="dropdown-menu">
+                    <form class="form1">
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com mais ninguém.
+                        </div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Senha</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                      </form>
+                    
+                  
+                </ul>
+              </li>
+              
+            </ul>
+
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+        
+      </nav>
+    
+      <div class="modal">
+        <div class="modal_content">
+            <img src="https://img.freepik.com/fotos-gratis/fotos-panoramicas-do-rio-foto-de-alta-definicao-turismo-de-imagens_1417-939.jpg" alt="" id="modal_img">
+        </div>
+        <span id="bt_close">&times;</span>
+    </div>
+      
+
+   <div class="container">
+
+        <div class="row">
+           <div class="card_img"> <img src="https://img.freepik.com/fotos-gratis/fotos-panoramicas-do-rio-foto-de-alta-definicao-turismo-de-imagens_1417-939.jpg" class="small_img"></div>
+           <div class="card_img"> <img src="https://i.pinimg.com/736x/89/d2/90/89d290da7e82c6279cf0bdce4599a9b7.jpg"  class="small_img"></div>
+           <div class="card_img"> <img src="https://mundogeo.com/wp-content/uploads/2019/10/11161410/mapas-de-alta-defini%C3%A7%C3%A3o.jpg " class="small_img"></div>
+       </div>
+
+       <div class="row">
+
+        <div class="card_img"> <img src="https://t2.tudocdn.net/267595?w=646&h=284" class="small_img"></div>
+        <div class="card_img"> <img src="https://media.gettyimages.com/id/482819670/pt/v%C3%ADdeo/timelapse-sao-paulo.jpg?s=640x640&k=20&c=amenwEpxD5RnHvxTcDQI-zQHec-MoW2hIyJ4Xr6r7GI=" class="small_img"></div>
+        <div class="card_img"> <img src="https://mundogeo.com/wp-content/uploads/2019/10/11161410/mapas-de-alta-defini%C3%A7%C3%A3o.jpg " class="small_img"></div>
+    </div>
+
+
+
+   </div>
+
+   <script src="galeria.js"></script>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</html>
